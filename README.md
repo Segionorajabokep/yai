@@ -192,7 +192,85 @@ Docs
 Contact GitHub
 Pricing
 API
-Training
+Training<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+</body>
+</html> 
+cookies yang pertama adalah untuk menyimpan informasi login. Jadi, Anda tidak perlu menulis berulang kali username dan kata sandi untuk mengunjungi website yang sama
+setsetcookie('username',$username,time()-3600);
+csetcookie("us
+ 204 Poin
+ername","",time()-3600ookie('username',$username,time
+Selamat
+pagi
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IOError: [Errno 2] No such file or directory
+fname = input('File yang ingin dibuka: ')
+fread = open(fname)Traceback (most recent call last):
+  File "q.py", line 2, in <module>
+    fread = open(fname)
+FileNotFoundError: [Errno 2] No such
+fname = input('File yang ingin dibuka: ')
+try:
+    fread = open(fname)
+except:
+    print('File yang diminta tidak ada
+    fread = open('chairil-anwar-aku.txt')
+
+count = 0
+for line in fread:
+    count += 1
+
+print(count)
+fread = open('chairil-anwar-aku.txt')
+
+count = 0
+for line in fread:
+    if len(line.strip()) > 0 :
+        count += 1
+
+print(count)
+fwrite = open('output-angka-segitiga.txt', 'w')
+
+n = 1
+for i in range(2, 50):
+    n += i
+    fwrite.write(str(n) + '\n')
+
+fwrite.close()
+while True:
+    fname = input('Nama file input: ')
+
+    try:
+        fread = open(fname)
+        break
+    except:
+        print('Tidak dapat menemukan file yang dimaksud, tolong cek lagi.\nNama file input: ')
+
+nama = []
+for line in fread:
+    nama.append(line.strip())
+
+nama = sorted(nama)
+
+fwrite = open('output_' + fname, 'w')
+
+for item in nama:
+    fwrite.write(item + '\n')
+
+fwrite.close()
+This wikiHow teaches you different ways to gain access to a website by hacking a login page. Websites are far more advanced and secure than they used to be, so there's virtually no way to gain access to private information just by looking at or writing basic HTML. It's much harder to hack into websites in general, especially if you're a novice! But, if you come across an older website written in rudimentary HTML by a beginning web developer, there's a slight chance you may come across passwords in the website's source code. Yes, we are being serious – passwords in the source code. A slightly more reliable way to exploit a website's login screen is to try a SQL injection. Whatever you do, don't hack into any websites without consent—it's illegal and could get you into big trouble.[1]
 Blog
 About
 Search · cara pakai termux
